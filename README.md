@@ -4,6 +4,14 @@ I wanted to be able to define a golang template, so that we could define a `.Ran
 # How to use
 ```
 git clone git@github.com:aminjam/pipeline-generator.git
+# assuming you have yaml.v2 or go get it
 go get gopkg.in/yaml.v2
-./generator.go > /tmp/pipeline.yml
+./generator.go > /tmp/final-pipeline.yml
 ```
+
+# Modify to your needs
+* Change `data` and `Structure` in `generator.go` depending on your needs
+* Change `./fixtures/pipeline.yml` to use your own pipeline template
+
+# Hopes and Wishes
+* Add this functionality to the core [fly](https://github.com/concourse/fly/blob/master/template/variables.go) cli

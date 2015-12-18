@@ -37,7 +37,6 @@ func main() {
 
 	tmpl := template.New("template")
 	pipeline = preserveConfigValue(pipeline)
-	fmt.Println(pipeline)
 	tmpl, err = tmpl.Parse(pipeline)
 	checkError(err)
 

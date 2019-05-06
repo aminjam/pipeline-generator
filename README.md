@@ -1,5 +1,5 @@
 # Concourse Pipeline Generator
-I wanted to be able to define a go template, so that we could define a `.Range` for our repeatable resrouces and jobs. If you are looking for a more robust solution without regex replacement [checkout goflat](https://github.com/aminjam/goflat).
+I wanted to be able to define a go template, so that we could define a `.Range` for our repeatable resources and jobs. If you are looking for a more robust solution without regex replacement [checkout goflat](https://github.com/aminjam/goflat).
 
 # How to use
 ```
